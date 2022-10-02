@@ -26,3 +26,8 @@ config 'interface' 'wifi'
 	option 'proto' 'static'
 	option 'ipaddr' '192.168.2.1'
 	option 'netmask' '255.255.255.0'
+
+config 'interface' 'wifi2'
+	option 'proto' 'static'
+	option 'ipaddr' '192.168.3.1'
+	option 'netmask' '255.255.255.0'
